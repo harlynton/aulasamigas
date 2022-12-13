@@ -7,7 +7,7 @@ import {
 
 const router = express.Router();
 
-router.get("/", getAllCourses);
+router.get("/listado", getAllCourses);
 router.get("/:id", getAllCoursesXStudent);
 router.post("/nuevo", addCourseToStudent);
 router.delete("/", removeCourseFromStudent);

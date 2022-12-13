@@ -133,7 +133,7 @@ export class Test_courses_x_student extends BaseEntity {
 ## Rutas de la API
 Se usa como directorio raiz la ruta **'/api'**.
 Desde este directorio, se crean dos rutas: **'/estudiantes**' y **'/cursos'**
-* **(GET) '/api/estudiantes/'** Permite listar estudiantes. No requiere enviar parámetros.
+* **(GET) '/api/estudiantes/listado'** Permite listar estudiantes. No requiere enviar parámetros.
 
 * **(POST) '/api/estudiantes/nuevo'** Permite la creación de un nuevo estudiante. Se deben enviar por body los siguientes parámetros:
   ```json
@@ -160,7 +160,7 @@ Desde este directorio, se crean dos rutas: **'/estudiantes**' y **'/cursos'**
     "status": 1
   }
   ```
-* **(GET) '/api/cursos/'** Devuelve todos los cursos en el sistema. No requiere ningún parámetro.
+* **(GET) '/api/cursos/listado'** Devuelve todos los cursos en el sistema. No requiere ningún parámetro.
 * **(GET) '/api/cursos/estudiante/:id'** Recupera todos los cursos de un estudiante dado: su parámetro de búsqueda es el id del estudiante.
 
 * **(POST) '/api/cursos/nuevo'** Permite registrar un nuevo curso a un estudiante, se deben enviar por body los siguientes parámetros: 

@@ -1,7 +1,7 @@
 export default {
   SERVER: {
     SETTINGS: {
-      PORT:3999
+      PORT:3990
     },
     ROUTES: {
       INDEX:'/api',
